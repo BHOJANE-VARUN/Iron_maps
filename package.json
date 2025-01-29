@@ -1,0 +1,24 @@
+{
+  "name": "iron_maps",
+  "version": "1.0.0",
+  "description": "project for managing medical supplies for needy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src"
+  },
+  "keywords": [
+    "node",
+    "health"
+  ],
+  "author": "varun bhojane",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.12.0",
+    "nodemon": "^3.1.9"
+  }
+}
